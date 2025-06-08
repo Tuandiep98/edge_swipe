@@ -1,3 +1,8 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+- initial release.
+
+# Changelog
+
+## 0.0.2
+- add github link.

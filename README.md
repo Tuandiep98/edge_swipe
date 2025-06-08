@@ -2,6 +2,9 @@
 
 A Flutter package for detecting edge swipe gestures with a curved line animation and back button.
 
+## Demo
+![Edge Swipe Demo](https://raw.githubusercontent.com/Tuandiep98/edge_swipe/assets/edge_swipe_demo.gif)
+
 ## Features
 - Detects horizontal swipes on the left edge of the screen.
 - Displays a curved line animation during swipe.
@@ -23,26 +26,11 @@ import 'package:edge_swipe/edge_swipe.dart';
 
 Wrap your content with EdgeSwipe:
 EdgeSwipe(
-                        curvedLineColor:
-                            Theme.of(context).brightness == Brightness.dark
-                                ? Theme.of(context).colorScheme.surface
-                                : Colors.white,
-                        curvedLineShadowColor: Theme.of(context)
-                            .colorScheme
-                            .secondary
-                            .withOpacity(.2),
-                        onSwipeLeft: () {
-                          Navigator.pop(context);
-                        },
-                        child: const Center(
-                          child: Text(
-                            'Swipe left to go back',
-                            style: TextStyle(
-                              fontSize: 24,
-                            ),
-                          ),
-                        ),
-                      ),
+    onSwipeLeft: () {
+        Navigator.pop(context);
+    },
+    child: child,
+)
 
 Parameters
 
@@ -54,5 +42,6 @@ percentToInvoke: Minimum 0, maximum 1 The percentage of curve amount to invoke t
 curvedLineColor: Color for the curved line.
 curvedLineShadowColor: Shadow color for the curved line.
 edgeChildBuilder: A builder function to create a widget that appears at the edge during the swipe. The function receives the current context and a boolean indicating if the swipe action has been invoked.
+
 Example
 See the example directory for a complete sample app.```
