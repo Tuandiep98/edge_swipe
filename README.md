@@ -3,7 +3,7 @@
 A Flutter package for detecting edge swipe gestures with a curved line animation and back button.
 
 ## Demo
-![Edge Swipe Demo](https://raw.githubusercontent.com/Tuandiep98/edge_swipe/assets/edge_swipe_demo.gif)
+![Edge Swipe Demo](https://github.com/Tuandiep98/edge_swipe/blob/main/assets/edge_swipe_demo.gif)
 
 ## Features
 - Detects horizontal swipes on the left edge of the screen.

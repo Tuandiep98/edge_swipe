@@ -1,6 +1,6 @@
 name: edge_swipe
 description: A Flutter package for detecting left-edge swipe gestures with a curved line animation and back button.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Tuandiep98/edge_swipe
 repository: https://github.com/Tuandiep98/edge_swipe.git
 issue_tracker: https://github.com/Tuandiep98/edge_swipe/issues
