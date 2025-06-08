@@ -1,0 +1,19 @@
+name: edge_swipe_example
+description: Example app for edge_swipe package
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.12.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  edge_swipe:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
